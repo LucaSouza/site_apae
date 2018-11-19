@@ -14,7 +14,14 @@
     </head>
     <body>
         <header>
-
+          <div class="grid-x">
+            <div class="medium-6 large-4 cell">6 cells</div>
+            <div class="medium-6 large-8 cell">6 cells</div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="medium-6 large-4 cell">6 cells</div>
+            <div class="medium-6 large-8 cell">6 cells</div>
+          </div>
         </header>
         <main>
 
