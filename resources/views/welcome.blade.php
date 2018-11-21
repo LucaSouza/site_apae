@@ -15,12 +15,16 @@
     <body>
         <header>
           <div class="grid-x">
-            <div class="medium-6 large-4 cell">6 cells</div>
-            <div class="medium-6 large-8 cell">6 cells</div>
+            <div class="m medium-6">6 Medio</div>
+            <div class="m medium-6">6 Medio</div>
+          </div>
+          <div class="grid-x">
+            <div class="l large-4">4 Largo</div>
+            <div class="l large-8">8 Largo</div>
           </div>
           <div class="grid-x grid-padding-x">
-            <div class="medium-6 large-4 cell">6 cells</div>
-            <div class="medium-6 large-8 cell">6 cells</div>
+            <div class="cell">6 cells</div>
+            <div class="cell">6 cells</div>
           </div>
         </header>
         <main>
