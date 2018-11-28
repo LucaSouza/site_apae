@@ -2291,11 +2291,13 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #1779ba;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1468a0; }
+    color: #ffffff;
+    font-weight:600;
+  }
   a img {
     border: 0; }
 
@@ -3738,7 +3740,7 @@ select {
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
-  border-color: #1779ba transparent transparent;
+  border-color: #ffffff transparent transparent;
   right: 5px;
   left: auto;
   margin-top: -3px; }
@@ -3750,7 +3752,7 @@ select {
 
 .dropdown.menu .is-active > a {
   background: transparent;
-  color: #1779ba; }
+}
 
 .no-js .dropdown.menu ul {
   display: none; }
@@ -5120,6 +5122,7 @@ a.thumbnail {
     right: 10%; }
 
 .top-bar {
+  height: 100px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
@@ -5133,7 +5136,7 @@ a.thumbnail {
       flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #1976d3;}
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
